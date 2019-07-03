@@ -91,7 +91,7 @@ def get_kanye_quote():
 def post_riley_tweet():
     """Function that tweets a random Riley photo"""
 
-    message = "Here's Riley"
+    message = ""
     api = setup_api()
     filename = get_riley_photo()
     print(filename)
